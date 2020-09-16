@@ -29,8 +29,8 @@ public class AppTest
     public void findCommonElement_HasCommonElement_ValidOutput()
     {
     	int[] a = {1, 2, 5, 5, 8, 9, 7, 7, 10, 11};
-        int[] b = {1, 0, 6, 15, 6, 4, 7, 0};
-        assertEquals(Arrays.asList(1, 7), App.findCommonElement(a, b));
+        int[] b = {1, 0, 6, 15, 6, 4, 7, 0, 9, 12, 11};
+        assertEquals(Arrays.asList(1, 7, 9, 11), App.findCommonElement(a, b));
     }
     
     @Test
